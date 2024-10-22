@@ -36,21 +36,21 @@ int main() {
 
     // Materials
     Material diff_red(Vec3(0.8, 0.1, 0.1), 0.9, 0.3);
-    Material diff_grey(Vec3(0.8, 0.8, 0.2), 0.9, 0.5, 0.9);
+    Material metallic(Vec3(0.3, 0.95, 0.95), 0.95, 0.01);
+    Material emissive(Vec3(0.8, 0.8, 0.2), 0.9, 0.5, 0.9);
     Material ground(Vec3(0.2, 0.9, 0.2), 0.5, 0.1);
 
     // Doesn't depend on order of instantiation, thank god. Referring to the depth order glitch
     World world(
         Camera(Vec3(0, 0, 1), Vec3(0.2361, 0.3265, 0.9214)),
         {
-            Sphere(Vec3(0, 0, -1), 0.5, &diff_grey),
+            Sphere(Vec3(0, 0, -1), 0.5, &emissive),
+            Sphere(Vec3(2, 0, -1), 0.5, &metallic),
             Sphere(Vec3(0.5, 0, -2), 0.2, &diff_red),
-            Sphere(Vec3(1.5, 0, -2), 0.2, &diff_red),
-            Sphere(Vec3(2.5, 0, -2), 0.2, &diff_red),
             Sphere(Vec3(-0.5, 0, -2), 0.2, &diff_red),
             Sphere(Vec3(-1.5, 0, -2), 0.2, &diff_red),
             Sphere(Vec3(-2.5, 0, -2), 0.2, &diff_red),
-            Sphere(Vec3(0, 100.5, -1), 100, &ground)
+            Sphere(Vec3(0, 1000.5, -1), 1000, &ground)
         }
     );
 
@@ -69,7 +69,6 @@ int main() {
 
     Vec3 sphere_direction;
     const double sphere_speed = 0.3;
-
 
 	bool quit = false;
 	while(!quit) {

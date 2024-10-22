@@ -125,11 +125,12 @@ Vec3 color_from_ray(const Ray& ray, const World& world, int depth) {
     Vec3 unit_direction = unit_vector(ray.direction);
     double t = 0.5 * (unit_direction.y + 1.0);
     // WHITE */ return (1.0 - t) * Vec3(1.0, 1.0, 1.0) + t * Vec3(1.0, 1.0, 1.0);
-    /* RED/BLUE */ return (1.0 - t) * Vec3(0.8, 0.2, 0.2) + t * Vec3(0.0, 0.0, 0.9);
+    // RED/BLUE */ return (1.0 - t) * Vec3(0.8, 0.2, 0.2) + t * Vec3(0.0, 0.0, 0.9);
     // BLACK/WHITE */ return (1.0 - t) * Vec3(0.9, 0.9, 0.9) + t * Vec3(0.1, 0.1, 0.1);
     // SLIGHT RED */ return (1.0 - t) * Vec3(0.9, 0.7, 0.7) + t * Vec3(0.2, 0.1, 0.1);
     // DARK SLIGHT RED */ return (1.0 - t) * Vec3(0.2, 0.1, 0.1) + t * Vec3(0.1, 0.1, 0.1);
     // SKY BLUE */ return (1.0 - t) * Vec3(0.5, 0.3, 0.9) + t * Vec3(0.9, 0.9, 0.9);
+    /* SUNSET */ return (1.0 - t) * Vec3(0.6, 0.4, 0.98) + t * Vec3(0.8, 0.1, 0.5);
 }
 
 /*

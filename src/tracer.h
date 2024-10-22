@@ -12,7 +12,7 @@
 #include <cmath>
 #include <limits>
 
-#define SAMPLES_PER_PIXEL 2
+#define SAMPLES_PER_PIXEL 4
 #define MAX_DEPTH 4
 
 struct Pathtracer {
