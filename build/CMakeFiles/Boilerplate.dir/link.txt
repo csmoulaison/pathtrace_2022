@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Boilerplate.dir/src/main.cpp.o CMakeFiles/Boilerplate.dir/src/camera.cpp.o CMakeFiles/Boilerplate.dir/src/cm_math.cpp.o CMakeFiles/Boilerplate.dir/src/sphere.cpp.o CMakeFiles/Boilerplate.dir/src/tracer.cpp.o CMakeFiles/Boilerplate.dir/src/vec3.cpp.o CMakeFiles/Boilerplate.dir/src/world.cpp.o -o ../bin/Boilerplate 

@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/main.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/main.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/main.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/camera.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/camera.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/camera.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/camera.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/cm_math.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/cm_math.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/cm_math.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/cm_math.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/platform.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/platform.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/platform.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/platform.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/sphere.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/sphere.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/sphere.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/sphere.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/tracer.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/tracer.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/tracer.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/tracer.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/vec3.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/vec3.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/vec3.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/vec3.cpp.o"
+},
+{
+  "directory": "/home/csmoulaison/archive/pathtrace_2022/build",
+  "command": "/sbin/c++  -I/home/csmoulaison/archive/pathtrace_2022/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/pathtrace.dir/src/world.cpp.o -c /home/csmoulaison/archive/pathtrace_2022/src/world.cpp",
+  "file": "/home/csmoulaison/archive/pathtrace_2022/src/world.cpp",
+  "output": "CMakeFiles/pathtrace.dir/src/world.cpp.o"
+}
+]

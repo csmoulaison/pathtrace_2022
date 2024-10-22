@@ -1,0 +1,29 @@
+#pragma once
+#include <math.h>
+
+#include "vec3.h"
+#include "ray.h"
+
+struct Camera {
+    // Member variables
+    Vec3 position;
+    Vec3 look_direction;
+    Vec3 fov; // vertical
+
+    Vec3 lower_left_corner;
+    Vec3 horizontal;
+    Vec3 vertical;
+    double focal_length;
+
+    // Constructor
+    Camera(Vec3 position, Vec3 look_direction);
+
+    // Methods
+    void transform(Vec3 translation, Vec3 rotation);
+    void translate(Vec3 translation);
+    void rotate(Vec3 rotation);
+    Ray get_ray(double u, double v) const;
+};
+
+// Converts degrees into radians
+double degrees_to_radians(double degrees);
